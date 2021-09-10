@@ -4,124 +4,163 @@
     <meta charset="utf-8">
     <title>Arturas Juskys | Portfolio</title>
     <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Arturas Juskys">
   </head>
-  <body>
-    <header>
-      <h1>Arturas Juskys</h1>
+  <body class="">
+
+    <header class="">
+      
       <nav id="header-nav">
-        <ul>
-          <li><a href="#">Home</a></li>
+        
+        <!-- <a href="#">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#">Contact</a> -->
+        
+        <ul class="">
+          <!-- <li><a href="#">Home</a></li> -->
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#about">About</a></li>
           <li><a href="#">Contact</a></li>
+          <li><a href="#about">About</a></li>
         </ul>
       </nav>
-      <div id="header-opacity"></div>
+
+      <article class="">
+        <h1>Hi,<br>I'm <em>Arturas</em>,<br>Web Developer</h1>
+        <p>Front End / Back End Developer</p>
+        <input id="header-contact" class="round-small borderless" type="button" value="Contanct Me">
+      </article>
+
     </header>
-    <main>
-      <section id="projects">
-        <h2>Projects</h2>
-        <article id="project01" class="project">
-          <span class="project-img-title">
-            <a href="https://github.com/AJuskys/Natours" target="_blank"><h3>GitHub: Natours</h3></a>
-          </span>
-          <span class="project-img-container">
-            <img class="img1" src="img/Natours-Home.png" alt="Home page of Natours Project">
-            <!-- <img class="img2" src="img/Natours-Post.png" alt="Post page on Natours Project"> -->
-          </span>
+
+    <main class="">
+
+      <section id="about" class="">
+        
+        <article>
+          <h2>About Me</h2>
+          <p>
+            Hi, I'm 30 year-old <strong>self-though</strong> and certified <strong>Web Developer</strong>. I like <strong>problem solving</strong> process, and <strong>learing</strong> new concepts. Interest in coding started with me wanting to customize my WordPress blog, and develped in my porsuing a <strong>new carrier path</strong>.
+          </p>
+          <p>
+            Focused and driven, with an eye for details and urge to customized and  develop unique designs.
+          </p>
+          <ul class="skills">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>DataBase</li>
+          </ul>
         </article>
-        <article id="project01" class="project">
-          <span class="project-img-title">
-            <a href="" target="_blank"><h3>GitHub: Node Farm</h3></a>
-          </span>
-          <span class="project-img-container">
-            <img src="img/NodeFarm-Home-2.png" alt="Home page of Node Farm Project">
-          </span>
-        </article>
+
+        <figure class="round-big">
+          <!-- <img src="img/20210728_093328.jpg"> -->
+          <img src="img/20210731_201809.jpg">
+        </figure>
+
       </section>
-      <section id="about">
-        <article id="myself">
-          <div id="myself-photo"></div>
-          <div id="myself-bio">
-            <h2>About Me</h2>
-            <p>I'm Arturas Juskys, a 30 year-old self-though <em>Web Developer</em>. I like problem solving process, not afraind of looking for potential pieces to find solutions.</p>
-            <p>Focused and driven, curently developing myself and my coding skills to start new chapter of my life as Web Developer.</p>
+
+      <!-- <section id="skills">
+        <h2>Skills</h2>
+
+        <div>
+        <article id="html">
+          <img src="icons/html-5.svg"><h3>HTML5</h3>
+          <p>Semantic HTML</p>
+        </article>
+
+        <article>
+          <img src="icons/css-3.svg">
+          <h3>CSS3</h3>
+        </article>
+
+        <article>
+          <img src="icons/JavaScript.svg">
+          <h3>JavaScript</h3>
+          <p>VanillaJS</p>
+          <p>Express</p>
+          <p>Node.js</p>
+        </article>
+
+        <article>
+          <img src="icons/Python.svg">
+          <h3>Python</h3>
+        </article>
+
+        <article>
+          <img src="icons/MongoDB.svg">
+          <h3>DataBase</h3>
+          <p>MongoDB</p>
+        </article>
+      </div>
+
+      </section> -->
+      
+      <section id="projects" class="">
+        <h2>Projects</h2>
+
+        <article id="project01" class="project right">
+          <div class="description round-big">
+          <h3>Natours - API Driven Web App</h3>
+          <p class="round-small">A web app, driven by Resful API. This project was buil as part of Node.js course on Udemy.com</p>
+          <ul id="technologies" class="">
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>VS Code</li>
+          </ul>
+          <a href="#" class="">GitHub</a>
+        </div>
+        <div class="img-container border round-big">
+          <img src="img/Natours-Home.png">
+          <div class="img-cover"></div>
+        </div>
+        </article>
+
+        <article id="project01" class="project left">
+          <div class="description round-big">
+            <h3>Node Farm - API Driven Web App</h3>
+            <p class="round-small">A web app, driven by Resful API. This project was buil as part of Node.js course on Udemy.com</p>
+            <ul id="technologies" class="">
+              <li>Node.js</li>
+              <li>VS Code</li>
+            </ul>
+            <a href="#" class="">GitHub</a>
+          </div>
+          <div class="img-container border round-big">
+            <img src="img/NodeFarm-Home-2.png">
+            <div class="img-cover"></div>
           </div>
         </article>
-        <article id="skills">
-          <h3>Skills</h3>
-          <span id="html">
-            <div class="skills-img">
-              <img src="icons/html-5.svg">
-            </div>
-            <div class="skills-text">
-              <h4>HTML5</h4>
-              <p>Semantic HTML</p>
-            </div>
-          </span>
-          <span id="css">
-            <div class="skills-img">
-              <img src="icons/css-3.svg">
-            </div>
-            <div class="skills-text">
-              <h4>CSS3</h4>
-            </div>
-          </span>
-          <span id="javascript">
-            <div class="skills-img">
-              <img src="icons/JavaScript.svg">
-            </div>
-            <div class="skills-text">
-              <h4>JavaScript</h4>
-              <p>VanillaJS</p>
-              <p>Express</p>
-              <p>Node.js</p>
-            </div>
-          </span>
-          <span id="python">
-            <div class="skills-img">
-              <img src="icons/Python.svg">
-            </div>
-            <div class="skills-text">
-              <h4>Python</h4>
-            </div>
-          </span>
-          <span id="database">
-            <div class="skills-img">
-              <img src="icons/MongoDB.svg">
-            </div>
-            <div class="skills-text">
-              <h4>DataBase</h4>
-              <p>MongoDB</p>
-            </div>
-          </span>
-        </article>
+
       </section>
+      
     </main>
-    <footer>
+
+    <footer class="">
       <figure>
         <!-- <img src="img/20210731_201809.jpg" alt="Portrait of Arturas Juskys"> -->
       </figure>
       <span id="footer-nav-group">
         <nav id="social-nav">
           <ul>
-            <li><a href="#">Facebook</a></li>
+            <!-- <li><a href="#">Facebook</a></li> -->
             <li><a href="#">LinkedIn</a></li>
             <li><a href="#">GitHub</a></li>
           </ul>
         </nav>
-        <nav id="footer-nav">
+        <!-- <nav id="footer-nav">
           <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
-        </nav>
+        </nav> -->
       </span>
+      <p>Designed & Built by Arturas Juskys</p>
     </footer>
   </body>
 </html>
