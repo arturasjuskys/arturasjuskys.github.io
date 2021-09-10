@@ -56,6 +56,14 @@ strong {
 /***********************************************************************************************/
 /* Temp */
 
+#header-nav #inactive a, #inactive a {
+  color: #4d4d4d;
+  text-decoration: none;
+}
+#header-nav #inactive a {
+  border-bottom: solid 1px #4d4d4d;
+}
+
 /* Fixed Nav Menu ************************/
 /* main, footer {
   position: relative;
@@ -80,7 +88,7 @@ header {
   padding: 0 1em;
   width: 100%;
   /* height: 82em; */
-  height: 100vh;
+  height: 95vh;
   /* border: solid 1px #09f0cd; */
 }
 header article {
@@ -115,20 +123,25 @@ header input {
 header ul {
   list-style: none;
 }
+header #contact a {
+  color: #4d4d4d;
+  border-bottom: solid 1px #4d4d4d;
+}
 #header-nav a {
   /* background-color: #09f0cd; */
   display: inline-block;
   width: 6em;
   padding: .8em .3em;
   margin: .2em;
-  color: #09f0cd;
+  color: #b3b3b3;
   font-size: 1.2em;
   font-weight: normal;
   text-decoration: none;
   border-right: solid 1px #09f0cd;
 }
-header a:hover {
-  background: #09f0cd;
+#header-nav a:hover, nav a:hover {
+  color: #09f0cd;
+
 }
 #header-contact {
   align-self: flex-start;
@@ -138,8 +151,8 @@ header a:hover {
   margin-top: .6em;
   margin-left: 0;
   font-size: 2em;
-  color: #09f0cd;
-  border: solid 2px #09f0cd;
+  color: #4d4d4d;
+  border: solid 2px #4d4d4d;
   background: transparent;
 }
 
@@ -175,6 +188,47 @@ header a:hover {
   columns: 2;
   width: 20em;
   /* border: solid 1px red; */
+}
+.skills li {
+  list-style: none;
+  /* text-align: left; */
+}
+.skills p {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+
+}
+.skills img {
+  display: inline-block;
+  width: 20px;
+}
+.skills-icon::before {
+  content: '';
+  display: inline-block;
+  height: .7em;
+  width: 1em;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#html::before {
+  background-image: url(./icons/html-5.svg);
+}
+#css::before {
+  background-image: url(./icons/css-3.svg);
+}
+#javascript::before {
+  background-image: url(./icons/JavaScript.svg);
+  height: .9em;
+}
+#python::before {
+  background-image: url(./icons/Python.svg);
+  height: .8em;
+}
+#database::before {
+  /* background: #b3b3b3; */
+  background-image: url(./icons/MongoDB-leaf.svg);
+  /* width: 2em; */
 }
 
 /*
