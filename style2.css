@@ -185,12 +185,12 @@ header #contact a {
 /* Skills */
 
 .skills {
-  columns: 2;
+  /* columns: 2; */
   width: 20em;
   /* border: solid 1px red; */
 }
 .skills li {
-  list-style: none;
+  /* list-style: none; */
   /* text-align: left; */
 }
 .skills p {
@@ -268,6 +268,12 @@ header #contact a {
 
 /***********************************************************************************************/
 /* Projects */
+
+.empty {
+  /* background-color: #292929; */
+  /* border: solid 1px red; */
+  width: 100%;
+}
 
 #projects {
   margin-top: 15em;
