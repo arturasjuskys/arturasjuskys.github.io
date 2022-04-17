@@ -90,7 +90,7 @@ header {
 /* INTRO */
 
 header article {
-  margin: 0 0 4em 2em;
+  margin: 0 1.5em 6em 1.5em;
 }
 
 header h1, header p {
@@ -104,21 +104,14 @@ section {
   margin-top: 15em;
 }
 
-/* ABOUT */
-
-#about article {
-  margin: 2em 5em;
+article {
+  margin: 1.5em;
 }
 
 /* PROJECTS */
 
 #projects h3 {
   margin: 0 .5em;
-}
-
-main article {
-  margin: 2em 4em;
-  padding: 0 1em;
 }
 
 #projects a {
