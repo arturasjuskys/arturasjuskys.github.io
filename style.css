@@ -43,6 +43,16 @@ strong {
   font-weight: normal;
 }
 
+main {
+  max-width: 60em;
+  margin: 0 auto;
+}
+
+header, footer {
+  max-width: 100em;
+  margin: 0 auto;
+}
+
 /* ===================================================================== */
 /* NAVIGATION */
 
@@ -72,14 +82,15 @@ nav a:hover {
 
 header {
   height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* INTRO */
 
 header article {
-  position: absolute;
-  left: 3em;
-  bottom: 15vh;
+  margin: 0 0 4em 2em;
 }
 
 header h1, header p {
@@ -123,10 +134,6 @@ main article {
 /* ===================================================================== */
 /* FOOTER */
 
-* {
-  /* border: solid 1px red; */
-}
-
 footer {
   margin-top: 15em;
   padding: 1em;
@@ -147,4 +154,3 @@ footer h2 {
 footer p {
   margin: 0 2em 0 0;
 }
-
