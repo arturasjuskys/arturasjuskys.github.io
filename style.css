@@ -21,7 +21,7 @@ h2 {
   color: #09f0cd;
   font-size: 3em;
   font-weight: bold;
-  margin-left: 1em;
+  margin: 0 1em;
 }
 
 h3 {
@@ -44,33 +44,34 @@ strong {
 }
 
 /* ===================================================================== */
-/* HEADER */
+/* NAVIGATION */
 
-header {
-  height: 95vh;
-}
-
-/* NAV */
-
-header ul {
-  list-style: none;
-  text-align: right;
-  padding-right: .5em;
-}
-
-header li {
+nav li {
   padding : .5em;
   margin: .3em;
   border-right: solid 1px #09f0cd;
 }
 
-header a {
+nav ul {
+  list-style: none;
+  text-align: right;
+  padding-right: .5em;
+}
+
+nav a {
   color: #b3b3b3;
   text-decoration: none;
 }
 
 nav a:hover {
   color: #09f0cd;
+}
+
+/* ===================================================================== */
+/* HEADER */
+
+header {
+  height: 95vh;
 }
 
 /* INTRO */
@@ -101,12 +102,12 @@ section {
 /* PROJECTS */
 
 #projects h3 {
-  margin-left: .5em;
+  margin: 0 .5em;
 }
 
 main article {
   margin: 2em 4em;
-  padding: 1em;
+  padding: 0 1em;
 }
 
 #projects a {
@@ -127,39 +128,23 @@ main article {
 }
 
 footer {
-  text-align: center;
   margin-top: 15em;
   padding: 1em;
+  text-align: right;
 }
 
 footer nav {
-  
+  text-align: right;
   display: flex;
   flex-direction: column;
   height: 100%;
-
 }
 
-footer ul {
-  padding: 0;
-  list-style: none;
-  margin: 3vh 0 15vh 0;
-
-}
-
-footer li {
-  margin: .5em;
-
-}
-
-footer a {
-  padding: .5em 1.3em 0 1.3em;
-  color: #b3b3b3;
-  text-decoration: none;
-  border-bottom: solid 1px #09f0cd;
+footer h2 {
+  margin: 0 1em;
 }
 
 footer p {
-  margin: 0;
+  margin: 0 2em 0 0;
 }
 
