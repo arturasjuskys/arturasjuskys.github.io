@@ -1,55 +1,54 @@
-<!DOCTYPE html>
-<html lang="eng">
+<!DOCTYPE html><html lang="ENG">
+
   <head>
     <meta charset="utf-8">
     <title>Art&umacr;ras Ju&scaron;kys | Portfolio</title>
     <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="./style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Arturas Juskys">
   </head>
-  <body class="">
 
-    <header class="">
-      
-      <nav id="header-nav">
-        
-        <!-- <a href="#">Home</a>
-        <a href="#projects">Projects</a>
-        <a href="#about">About</a>
-        <a href="#">Contact</a> -->
-        
-        <ul class="">
-          <!-- <li><a href="#">Home</a></li> -->
+  <body>
+
+    <header>
+
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><a href="#about">About</a></li>
         </ul>
       </nav>
 
-      <article class="">
-        <h1>Hi,<br>I'm <em>Art&umacr;ras</em>,<br>Full-Stack Engineer</h1>
+      <article>
+        <h1>Hi,<br />
+        My name is <em>Art&umacr;ras</em> Ju&scaron;kys,<br />
+        <em>Aspiring Full-Stack</em> Engineer</h1>
         <p>Back End & Front End</p>
-        <input id="header-contact" class="round-small borderless" type="button" value="Contanct Me">
       </article>
 
     </header>
 
-    <main class="">
+    <main>
 
-      <section id="about" class="">
-        
+      <section id="about">
+
+        <h2>About Me</h2>
+
         <article>
-          <h2>About Me</h2>
-          <p>
-            Currently I'm nearing the end of the <strong>Full-Stack Engineer</strong> career path in Codecademy.com. I have finished <strong>Front-End</strong> Project and am building <strong>Restful API</strong>.
+          <p>I believe self development to be top priority in everyone's life, including my own professional life. I aspire to become a part of a team that develops cutting edge web solutions for everyone. Developing technical and problem solving skills have become a big part of my life. Personal projects that I'm working on reflect knowledge in: Node.js, React, Redux, Express, PostgreSQL, MongoDB, HTML, CSS.</p>
+          
+          <p>Through my personal learning experience and projects I gained understanding how to program solutions that interact with 3rd party APIs and how to design and build RESTful API on my own.</p>
+        </article>
+        
+        <!-- <article>
+          Photo
+        </article> -->
 
-          </p>
-          <p>
-            As my first project I have built a Web App that consumes <strong>Reddit API</strong> data and displays it using <strong>React</strong> and <strong>Redux</strong>. Second project is a <strong>Ecommerce Restful API</strong> that employs PostgreSQL, Node.js and Express.js that will become a PERN stack Web App.
-          </p>
-          <h2>Skills</h2>
-          <ul class="skills">
+        <article id=""skills>
+          <h3>Technical Skills</h3>
+          <ul>
             <li>JavaScript</li>
             <li>Node.js</li>
             <li>Express.js</li>
@@ -60,149 +59,80 @@
             <li>HTML5</li>
             <li>CSS</li>
           </ul>
-          <!-- <ul class="skills" >
-            <li id="html" class="skills-icon">HTML5</li>
-            <li id="css" class="skills-icon">CSS3</li>
-            <li id="javascript" class="skills-icon">JavaScript</li>
-            <li id="python" class="skills-icon">Python</li>
-            <li id="database" class="skills-icon">DataBase</li>
-          </ul> -->
         </article>
-
-        <figure class="round-big">
-          <!-- <img src="img/20210728_093328.jpg"> -->
-          <img src="img/20210731_201809.jpg">
-        </figure>
 
       </section>
 
-      <!-- <section id="skills">
-        <h2>Skills</h2>
+      <section id="projects">
 
-        <div>
-        <article id="html">
-          <img src="icons/html-5.svg"><h3>HTML5</h3>
-          <p>Semantic HTML</p>
-        </article>
-
-        <article>
-          <img src="icons/css-3.svg">
-          <h3>CSS3</h3>
-        </article>
-
-        <article>
-          <img src="icons/JavaScript.svg">
-          <h3>JavaScript</h3>
-          <p>VanillaJS</p>
-          <p>Express</p>
-          <p>Node.js</p>
-        </article>
-
-        <article>
-          <img src="icons/Python.svg">
-          <h3>Python</h3>
-        </article>
-
-        <article>
-          <img src="icons/MongoDB.svg">
-          <h3>DataBase</h3>
-          <p>MongoDB</p>
-        </article>
-      </div>
-
-      </section> -->
-      
-      <section id="projects" class="">
         <h2>Projects</h2>
 
-        <article id="project01" class="project right">
-          <div class="description round-big">
-            <h3>Ecommerce Restful API</h3>
-            <p class="round-small">Restful API for Back-End Ecommerce site built using modern technologies and methodologies. This API will allow you to create a user account, add items to the basket and checkout them to create a new order in the database.</p>
-            <ul id="technologies" class="">
-              <li>Node.js</li>
-              <li>Express.js</li>
-              <li>PostgreSQL</li>
-              <li>MVC architecture</li>
-              <li>Postman</li>
-            </ul>
-            <a target="_blank" href="https://github.com/arturasjuskys/Full_Stack_Engineer-E-Commerce_App" class="">GitHub repo</a>
-          </div>
-          <!-- <div class="img-container border round-big empty"> -->
-          <div class="round round-big empty">
-            <!-- <img src="img/NodeFarm-Home-2.png"> -->
-            <!-- <div class="img-cover"></div> -->
-          </div>
-        </article>
-
-        <article id="project01" class="project left">
-          <div class="description round-big">
-            <h3>Reading Reddit API</h3>
-            <p class="round-small">Front-End App that uses Redux to manage state and React to display Reddit API data.</p>
-            <ul id="technologies" class="">
-              <li>React.js</li>
-              <li>Redux</li>
-              <li>JavaScript</li>
-              <li>Netlify</li>
-              <li>HTML5</li>
-              <li>CSS</li>
-            </ul>
-            <a target="_blank" href="https://github.com/arturasjuskys/Full_Stack_Engineer-Protfolio_Project-Reddit_Client" class="">GitHub repo</a>
-            <a href="https://reading-reddit-api.netlify.app/" target="_blank">Live website</a>
-          </div>
-          <div class="img-container border round-big">
-            <img src="img/Readding-Reddit-API.png">
-            <div class="img-cover"></div>
-          </div>
-        </article>
-
-        <article id="project01" class="project right">
-          <div class="description round-big">
-          <h3>Natours - Travelling agency API</h3>
-          <p class="round-small">In this Full-Stack project I have coded Restful API to create an interface where users can create accounts, add destinations into basket and create orders using Stripe payment authentication.</p>
-          <ul id="technologies" class="">
+        <article>
+          <h3>Natours - Travelling Agency</h3>
+          <p>Natours is a final course project where everything is tied together to build the back-end for a travelling agency. This is a RESTful API with functional CRUD (create, read, update, delete) operations, working user page, and basic security measures. Front-side of the final app was provided by the online course.</p>
+          <a target="_blank" href="https://natours-arturas.herokuapp.com/" class="">Live Website</a>
+          <a target="_blank" href="https://github.com/arturasjuskys/Node.js_Bootcamp_2021-Natours" class="">GitHub Repo</a>
+          <ul class="technologies-used">
             <li>Node.js</li>
             <li>Express.js</li>
             <li>MongoDB</li>
             <li>Heroku</li>
             <li>MVC architecture</li>
           </ul>
-          <a target="_blank" href="https://github.com/arturasjuskys/Node.js_Bootcamp_2021-Natours" class="">GitHub repo</a>
-          <a target="_blank" href="https://natours-arturas.herokuapp.com/" class="">Live website</a>
-        </div>
-        <div class="img-container border round-big">
-          <img src="img/Natours-Home.png">
-          <div class="img-cover"></div>
-        </div>
         </article>
 
+        <article>
+          <h3>Reading Reddit API</h3>
+          <p>This project reflects the understanding required to design and build client-side web application. I'm using React-Redux to store and display the data received from Reddit's public JSON API. Posts are displayed in similar fashion as on reddit.com but this project was not meant to be a replica of the original.</p>
+          <a href="https://reading-reddit-api.netlify.app/" target="_blank">Live Website</a>
+          <a target="_blank" href="https://github.com/arturasjuskys/Full_Stack_Engineer-Protfolio_Project-Reddit_Client" class="">GitHub Repo</a>
+          <ul class="technologies-used">
+            <li>JavaScript</li>
+            <li>React.js</li>
+            <li>Redux</li>
+            <li>Netlify</li>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>E-Commerce RESTful API [Work in Progress]</h3>
+          <p>For this project I'm building an e-commerce application REST API using knowledge of server-side web development. At the end this API will have fully functioning CRUD (create, read, update, delete)  operations, such as registering an account, browsing products, adding them to basket, and creating an order in the database.</p>
+          <a href="https://github.com/arturasjuskys/Full_Stack_Engineer-E-Commerce_App" target="_blank">GitHub Repo</a>
+          <ul class="technologies-used">
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>PostgreSQL</li>
+            <li>MVC architecture</li>
+            <li>Postman</li>
+          </ul>
+        </article>
+
+        <!-- <article>
+          other notable mentions
+        </article> -->
+
       </section>
-      
+
     </main>
 
     <footer id="contact">
-      <figure>
-        <!-- <img src="img/20210731_201809.jpg" alt="Portrait of Arturas Juskys"> -->
-      </figure>
-      <span id="footer-nav-group">
-        <nav id="social-nav">
-          <h2>Contact Me</h2>
-          <ul>
-            <!-- <li><a href="#">Facebook</a></li> -->
-            <li><a target="_blank" href="https://www.linkedin.com/in/arturas-juskys-43a4a4236/">LinkedIn</a></li>
-            <li><a target="_blank" href="https://github.com/arturasjuskys">GitHub</a></li>
-          </ul>
-        </nav>
-        <!-- <nav id="footer-nav">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav> -->
-      </span>
-      <p>Designed & Built by Art&umacr;ras Ju&scaron;kys</p>
+
+      <h2>Contact Me</h2>
+
+      <nav>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/arturas-juskys/" target="_blank">LinkedIn</a></li>
+          <li><a href="https://github.com/arturasjuskys" target="_blank">GitHub</a></li>
+          <li><a href="mailto:arturasjuskys@gmail.com">Gmail</a></li>
+        </ul>
+      </nav>
+      
+      <p>Developed by Art&umacr;ras Ju&scaron;kys</p>
+
     </footer>
+
   </body>
+
 </html>
