@@ -1,0 +1,156 @@
+/* ===================================================================== */
+/* DEFAULTS */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1d1d1d;
+  color: #b3b3b3;
+  font-size: 16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+  color: #f3ecea;
+}
+
+h2 {
+  color: #09f0cd;
+  font-size: 3em;
+  font-weight: bold;
+  margin: 0 1em;
+}
+
+h3 {
+  color: #f3ecea;
+  font-size: 1.8em;
+  margin-bottom: 0;
+}
+
+p, li, a {
+  font-size: 1.3em;
+}
+
+em {
+  color: #09f0cd;
+}
+
+strong {
+  color: #09f0cd;
+  font-weight: normal;
+}
+
+main {
+  max-width: 60em;
+  margin: 0 auto;
+}
+
+header, footer {
+  max-width: 100em;
+  margin: 0 auto;
+}
+
+/* ===================================================================== */
+/* NAVIGATION */
+
+nav li {
+  padding : .5em;
+  margin: .3em;
+  border-right: solid 1px #09f0cd;
+}
+
+nav ul {
+  list-style: none;
+  text-align: right;
+  padding-right: .5em;
+}
+
+nav a {
+  color: #b3b3b3;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #09f0cd;
+}
+
+/* ===================================================================== */
+/* HEADER */
+
+header {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* INTRO */
+
+header article {
+  margin: 0 0 4em 2em;
+}
+
+header h1, header p {
+  margin: 0;
+}
+
+/* ===================================================================== */
+/* MAIN */
+
+section {
+  margin-top: 15em;
+}
+
+/* ABOUT */
+
+#about article {
+  margin: 2em 5em;
+}
+
+/* PROJECTS */
+
+#projects h3 {
+  margin: 0 .5em;
+}
+
+main article {
+  margin: 2em 4em;
+  padding: 0 1em;
+}
+
+#projects a {
+  color: #b3b3b3;
+  padding: 0 .3em;
+  text-decoration-color: #09f0cd;
+}
+
+#projects a:hover {
+  color: #09f0cd;
+}
+
+/* ===================================================================== */
+/* FOOTER */
+
+footer {
+  margin-top: 15em;
+  padding: 1em;
+  text-align: right;
+}
+
+footer nav {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+footer h2 {
+  margin: 0 1em;
+}
+
+footer p {
+  margin: 0 2em 0 0;
+}

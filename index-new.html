@@ -4,8 +4,7 @@
     <meta charset="utf-8">
     <title>Art&umacr;ras Ju&scaron;kys | Portfolio</title>
     <link rel="stylesheet" href="normalize.css">
-    <!-- add new stylesheet -->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Arturas Juskys">
   </head>
@@ -16,18 +15,17 @@
 
       <nav>
         <ul>
+          <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><a href="#about">About</a></li>
         </ul>
       </nav>
 
       <article>
         <h1>Hi,<br />
-        My name is Art&umacr;ras Ju&scaron;kys,<br />
-        Aspiring Full-Stack Engineer</h1>
-
-        <input type="button" value="Contact Me">
+        My name is <em>Art&umacr;ras</em> Ju&scaron;kys,<br />
+        <em>Aspiring Full-Stack</em> Engineer</h1>
+        <p>Back End & Front End</p>
       </article>
 
     </header>
@@ -36,8 +34,9 @@
 
       <section id="about">
 
+        <h2>About Me</h2>
+
         <article>
-          <h2>About Me</h2>
           <p>I believe self development to be top priority in everyone's life, including my own professional life. I aspire to become a part of a team that develops cutting edge web solutions for everyone. Developing technical and problem solving skills have become a big part of my life. Personal projects that I'm working on reflect knowledge in: Node.js, React, Redux, Express, PostgreSQL, MongoDB, HTML, CSS.</p>
           
           <p>Through my personal learning experience and projects I gained understanding how to program solutions that interact with 3rd party APIs and how to design and build RESTful API on my own.</p>
@@ -48,6 +47,7 @@
         </article> -->
 
         <article id=""skills>
+          <h3>Technical Skills</h3>
           <ul>
             <li>JavaScript</li>
             <li>Node.js</li>
@@ -68,15 +68,16 @@
         <h2>Projects</h2>
 
         <article>
-          <h3>E-Commerce RESTful API [Work in Progress]</h3>
-          <p>For this project I'm building an e-commerce application REST API using knowledge of server-side web development. At the end this API will have fully functioning CRUD (create, read, update, delete)  operations, such as registering an account, browsing products, adding them to basket, and creating an order in the database.</p>
-          <a href="https://github.com/arturasjuskys/Full_Stack_Engineer-E-Commerce_App" target="_blank">GitHub Repo</a>
+          <h3>Natours - Travelling Agency</h3>
+          <p>Natours is a final course project where everything is tied together to build the back-end for a travelling agency. This is a RESTful API with functional CRUD (create, read, update, delete) operations, working user page, and basic security measures. Front-side of the final app was provided by the online course.</p>
+          <a target="_blank" href="https://natours-arturas.herokuapp.com/" class="">Live Website</a>
+          <a target="_blank" href="https://github.com/arturasjuskys/Node.js_Bootcamp_2021-Natours" class="">GitHub Repo</a>
           <ul class="technologies-used">
             <li>Node.js</li>
             <li>Express.js</li>
-            <li>PostgreSQL</li>
+            <li>MongoDB</li>
+            <li>Heroku</li>
             <li>MVC architecture</li>
-            <li>Postman</li>
           </ul>
         </article>
 
@@ -96,16 +97,15 @@
         </article>
 
         <article>
-          <h3>Natours - Travelling Agency</h3>
-          <p>Natours is a final course project where everything is tied together to build the back-end for a travelling agency. This is a RESTful API with functional CRUD (create, read, update, delete) operations, working user page, and basic security measures. Front-side of the final app was provided by the online course.</p>
-          <a target="_blank" href="https://natours-arturas.herokuapp.com/" class="">Live Website</a>
-          <a target="_blank" href="https://github.com/arturasjuskys/Node.js_Bootcamp_2021-Natours" class="">GitHub Repo</a>
+          <h3>E-Commerce RESTful API [Work in Progress]</h3>
+          <p>For this project I'm building an e-commerce application REST API using knowledge of server-side web development. At the end this API will have fully functioning CRUD (create, read, update, delete)  operations, such as registering an account, browsing products, adding them to basket, and creating an order in the database.</p>
+          <a href="https://github.com/arturasjuskys/Full_Stack_Engineer-E-Commerce_App" target="_blank">GitHub Repo</a>
           <ul class="technologies-used">
             <li>Node.js</li>
             <li>Express.js</li>
-            <li>MongoDB</li>
-            <li>Heroku</li>
+            <li>PostgreSQL</li>
             <li>MVC architecture</li>
+            <li>Postman</li>
           </ul>
         </article>
 
@@ -117,17 +117,19 @@
 
     </main>
 
-    <footer>
+    <footer id="contact">
+
+      <h2>Contact Me</h2>
 
       <nav>
-        <h2>Contact Me</h2>
         <ul>
           <li><a href="https://www.linkedin.com/in/arturas-juskys/" target="_blank">LinkedIn</a></li>
           <li><a href="https://github.com/arturasjuskys" target="_blank">GitHub</a></li>
           <li><a href="mailto:arturasjuskys@gmail.com">Gmail</a></li>
         </ul>
-        <p>Developed by Art&umacr;ras Ju&scaron;kys</p>
       </nav>
+      
+      <p>Developed by Art&umacr;ras Ju&scaron;kys</p>
 
     </footer>
 
