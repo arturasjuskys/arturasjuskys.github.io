@@ -12,7 +12,7 @@ import { useEffect } from "react";
 
 export default function Portfolio() {
   const [selected, setSelected] = useState("featured");
-  const [data, setData] = useState();
+  const [data, setData] = useState([]);
   const list = [
     {
       id: "featured",
@@ -46,6 +46,9 @@ export default function Portfolio() {
         break;
       case "mobile":
         setData(mobilePortfolio);
+        break;
+      case "design":
+        setData(designPortfolio);
         break;
       case "content":
         setData(contentPortfolio);
