@@ -20,9 +20,24 @@
       display: flex;
       align-items: center;
 
+      .itemContainer {
+        a {
+          display: flex;
+          align-items: center;
+          color: $mainColor;
+          text-decoration: none;
+          // font-size: 24px;
+        }
+
+        .icon {
+          font-size: 24px;
+          margin-right: 5px;
+        }
+      }
+
       .logo {
         font-size: 40px;
-        font-weight: 700;
+        font-weight: 200;
         text-decoration: none;
         color: inherit;
         margin-right: 40px;
@@ -72,6 +87,14 @@
   &.active {
     background-color: $mainColor;
     color: white;
+
+    .left {
+      .itemContainer {
+        a {
+          color: white;
+        }
+      }
+    }
 
     .hamburger {
       span {

@@ -1,6 +1,7 @@
+import { ExternalLink } from "react-external-link";
 import "./product.scss";
 
-export default function Product({ title, img }) {
+export default function Product({ title, img, url }) {
   return (
     <div className="product">
       <div className="browser">
@@ -13,9 +14,9 @@ export default function Product({ title, img }) {
           <div className="circle"></div>
         </div>
       </div>
-      <a href="/" target="_blank">
+      <ExternalLink href={url} rel="noopener noreferrer" target="_blank">
         <img src={img} alt="" />
-      </a>
+      </ExternalLink>
     </div>
   );
 }

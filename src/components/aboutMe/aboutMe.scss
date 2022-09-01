@@ -33,7 +33,8 @@
 
   ul {
     display: flex;
-    align-items: center;
+    // align-items: center;
+    // align-self: flex-end;
     flex-wrap: wrap;
     opacity: 0.2;
 

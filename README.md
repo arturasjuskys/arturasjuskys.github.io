@@ -12,3 +12,4 @@
 - [EmailJS](https://www.emailjs.com/)
   - `npm install @emailjs/browser`
   - Documentation: [EmailJS](https://www.emailjs.com/docs/examples/reactjs/)
+- `npm i react-external-link`

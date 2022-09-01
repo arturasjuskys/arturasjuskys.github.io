@@ -1,21 +1,21 @@
-import "./about.scss";
+import "./aboutMe.scss";
 
 export default function About() {
   return (
     <div id="about" className="about">
       <h2>About Me</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt aut
-        quam expedita beatae nihil eos adipisci deserunt fugit odit similique
-        itaque cumque minus consectetur laudantium, doloremque maiores
-        reiciendis minima reprehenderit soluta veniam quaerat nulla eligendi
-        sed. Optio quasi mollitia iusto.
+        I believe self development to be top priority in everyone's life,
+        including my own professional life. I aspire to become a part of a team
+        that develops cutting edge web solutions for everyone. Developing
+        technical and problem solving skills have become a big part of my life.
+        Personal projects that I'm working on reflect knowledge in: Node.js,
+        React, Redux, Express, PostgreSQL, MongoDB, HTML, CSS.
       </p>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam labore
-        eum repudiandae nobis, eius atque perferendis laborum, non laudantium
-        perspiciatis cumque! Neque, debitis alias quo et laborum voluptates unde
-        esse!
+        Through my personal learning experience and projects I gained
+        understanding how to program solutions that interact with 3rd party APIs
+        and how to design and build RESTful API on my own.
       </p>
       <ul>
         <li>
