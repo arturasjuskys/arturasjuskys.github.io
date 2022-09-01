@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="height=device-height, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
       content="Web site created using create-react-app"
@@ -20,12 +20,8 @@
         box-sizing: border-box;
         overflow-x: hidden;
       }
-      /* browser window height issue fix */
       html {
-        height: -webkit-fill-available;
-      }
-      body {
-        height: -webkit-fill-available;
+        height: calc(100vh - calc(100vh - 100%));
       }
     </style>
   </head>

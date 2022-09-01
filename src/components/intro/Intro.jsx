@@ -1,5 +1,5 @@
 import "./intro.scss";
-import { KeyboardArrowDown, EmojiPeople } from "@material-ui/icons";
+import { EmojiPeople } from "@material-ui/icons";
 import Typewriter from "typewriter-effect";
 
 export default function Intro() {
