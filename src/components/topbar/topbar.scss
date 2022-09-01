@@ -26,7 +26,10 @@
           align-items: center;
           color: $mainColor;
           text-decoration: none;
-          // font-size: 24px;
+
+          &:hover {
+            text-decoration: underline;
+          }
         }
 
         .icon {
@@ -41,6 +44,10 @@
         text-decoration: none;
         color: inherit;
         margin-right: 40px;
+
+        &:hover {
+          text-decoration: underline;
+        }
       }
     }
 

@@ -28,21 +28,18 @@
 
     @include mobile {
       flex-direction: column;
-      justify-content: center;
       height: calc(100vh - 70px);
-      margin-top: 30px;
     }
 
     .container {
       width: 100vw;
       display: flex;
-      align-items: center;
       justify-content: center;
 
       .product {
         @include mobile {
           width: 80%;
-          height: 150px;
+          height: 140px;
           margin: 10px 0;
         }
       }
