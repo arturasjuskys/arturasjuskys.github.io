@@ -3,6 +3,9 @@ import { KeyboardArrowDown, EmojiPeople } from "@material-ui/icons";
 import Typewriter from "typewriter-effect";
 
 export default function Intro() {
+  const height = window.innerHeight;
+  console.log(height);
+
   const text = (
     <Typewriter
       options={{

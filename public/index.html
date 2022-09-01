@@ -20,6 +20,13 @@
         box-sizing: border-box;
         overflow-x: hidden;
       }
+      /* browser window height issue fix */
+      html {
+        height: -webkit-fill-available;
+      }
+      body {
+        height: -webkit-fill-available;
+      }
     </style>
   </head>
   <body>
