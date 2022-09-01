@@ -11,6 +11,8 @@
 
   @include mobile {
     align-items: center;
+    justify-content: flex-start;
+    padding-top: 15px;
   }
 
   h2 {

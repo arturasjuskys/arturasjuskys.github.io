@@ -9,7 +9,7 @@
 
   h2 {
     position: absolute;
-    top: 10px;
+    top: 15px;
     color: $mainColor;
     font-size: 60px;
 
@@ -27,7 +27,6 @@
     transition: all 1s ease;
 
     @include mobile {
-      flex-direction: column;
       height: calc(100vh - 70px);
     }
 
@@ -38,9 +37,8 @@
 
       .product {
         @include mobile {
-          width: 80%;
-          height: 140px;
-          margin: 10px 0;
+          width: 90%;
+          height: 450px;
         }
       }
     }
@@ -52,16 +50,25 @@
     cursor: pointer;
 
     @include mobile {
-      display: none;
+      height: 35px;
+      color: #e38195;
     }
 
     &.left {
       left: 100px;
-      transform: rotate(180deg);
+
+      @include mobile {
+        left: 30px;
+      }
     }
 
     &.right {
       right: 100px;
+      transform: rotate(180deg);
+
+      @include mobile {
+        right: 30px;
+      }
     }
   }
 }

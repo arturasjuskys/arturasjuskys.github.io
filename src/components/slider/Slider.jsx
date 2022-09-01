@@ -51,13 +51,13 @@ export default function Portfolio() {
         ))}
       </div>
       <img
-        src="assets/arrow.png"
+        src="assets/arrow-left-svgrepo-com.svg"
         alt=""
         className="arrow left"
         onClick={() => handleClick("left")}
       />
       <img
-        src="assets/arrow.png"
+        src="assets/arrow-left-svgrepo-com.svg"
         alt=""
         className="arrow right"
         onClick={() => handleClick()}

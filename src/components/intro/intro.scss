@@ -93,7 +93,8 @@
       padding: 10px;
 
       @include mobile {
-        bottom: 40px;
+        bottom: 60px;
+        left: 40%;
       }
 
       .mouse-scroll {
