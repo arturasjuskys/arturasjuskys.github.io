@@ -1,7 +1,8 @@
 import { useState } from "react";
-import "./works.scss";
+import "./slider.scss";
+import Product from "./Product";
 
-export default function Works() {
+export default function Portfolio() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const data = [
     {
@@ -34,28 +35,15 @@ export default function Works() {
   };
 
   return (
-    <div id="works" className="works">
+    <div id="portfolio" className="portfolio">
+      <h2>Portfolio</h2>
       <div
         className="slider"
         style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
       >
         {data.map(item => (
-          <div className="container">
-            <div className="item">
-              <div className="left">
-                <div className="leftContainer">
-                  <div className="imgContainer">
-                    <img src={item.icon} alt="" />
-                  </div>
-                  <h2>{item.title}</h2>
-                  <p>{item.desc}</p>
-                  <span>Projects</span>
-                </div>
-              </div>
-              <div className="right">
-                <img src={item.img} alt="" />
-              </div>
-            </div>
+          <div key={item.id} className="container">
+            <Product title={item.title} img={item.img} />
           </div>
         ))}
       </div>

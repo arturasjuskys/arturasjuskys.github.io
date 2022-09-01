@@ -2,10 +2,8 @@ import "./app.scss";
 import Topbar from "./components/topbar/Topbar";
 import Menu from "./components/menu/Menu";
 import Intro from "./components/intro/Intro";
-import Portfolio from "./components/portfolio/Portfolio";
-import Works from "./components/works/Works";
+import Slider from "./components/slider/Slider";
 import Contact from "./components/contact/Contact";
-import Testimonials from "./components/testimonials/Testimonials";
 import { useState } from "react";
 import About from "./components/about/About";
 
@@ -19,9 +17,7 @@ function App() {
       <div className="sections">
         <Intro />
         <About />
-        <Portfolio />
-        <Works />
-        <Testimonials />
+        <Slider />
         <Contact />
       </div>
     </div>

@@ -1,0 +1,68 @@
+@import "../../global.scss";
+
+.portfolio {
+  background-color: crimson;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  h2 {
+    position: absolute;
+    top: 10px;
+    color: $mainColor;
+    font-size: 60px;
+
+    @include mobile {
+      font-size: 35px;
+    }
+  }
+
+  .slider {
+    height: 350px;
+    display: flex;
+    position: absolute;
+    left: 0;
+    transition: all 1s ease;
+
+    @include mobile {
+      flex-direction: column;
+      justify-content: center;
+      height: calc(100vh - 70px);
+    }
+
+    .container {
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .product {
+        @include mobile {
+          width: 80%;
+          height: 150px;
+          margin: 15px 0;
+        }
+      }
+    }
+  }
+
+  .arrow {
+    height: 50px;
+    position: absolute;
+    cursor: pointer;
+
+    @include mobile {
+      display: none;
+    }
+
+    &.left {
+      left: 100px;
+      transform: rotate(180deg);
+    }
+
+    &.right {
+      right: 100px;
+    }
+  }
+}
