@@ -12,6 +12,7 @@
   .left {
     flex: 0.5;
     overflow: hidden;
+    margin: auto 0;
 
     .imgContainer {
       width: 700px;
@@ -82,9 +83,9 @@
       bottom: 10px;
       left: 40%;
 
-      .icon {
-        font-size: 60px;
-        animation: arrowBlink 2s infinite;
+      .mouse-scroll {
+        width: 40px;
+        height: 40px;
       }
 
       @keyframes arrowBlink {

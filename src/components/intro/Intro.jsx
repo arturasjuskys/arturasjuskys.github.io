@@ -26,8 +26,12 @@ export default function Intro() {
           <h2>Hi There, I'm</h2>
           <h1>Art&#363;ras Ju&#353;kys</h1>
           {text}
-          <a href="#portfolio">
-            <KeyboardArrowDown className="icon" />
+          <a href="#about">
+            <img
+              className="mouse-scroll"
+              src="assets/mouse-scroll.svg"
+              alt=""
+            />
           </a>
         </div>
       </div>
