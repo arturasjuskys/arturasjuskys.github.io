@@ -28,8 +28,6 @@
     font-size: 30px;
     font-weight: 300;
     color: white;
-
-    // fixes hover issue over 'testimonials hover
     width: 70%;
 
     li {
@@ -53,7 +51,11 @@
     justify-content: flex-end;
     flex: 1;
     margin-left: 0;
-    padding-bottom: 60px;
+    padding-bottom: 10px;
+
+    @include mobile {
+      padding-bottom: 100px;
+    }
 
     li {
       display: flex;
@@ -65,10 +67,10 @@
         display: flex;
         align-items: center;
         color: white;
-        font-size: 16px;
+        font-size: 12px;
       }
       .icon {
-        font-size: 24px;
+        font-size: 20px;
         margin-right: 5px;
       }
     }

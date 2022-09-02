@@ -1,8 +1,9 @@
+@import "./global.scss";
+
 .app {
   height: 100vh;
 
   .sections {
-    background-color: lightskyblue;
     width: 100%;
     height: calc(100vh - 70px);
     position: relative;
@@ -14,6 +15,11 @@
     scrollbar-width: none; /* firefox */
     &::-webkit-scrollbar {
       display: none;
+    }
+
+    // disables mobile scrool snap
+    @include mobile {
+      scroll-snap-type: none;
     }
 
     /* all child elements */
