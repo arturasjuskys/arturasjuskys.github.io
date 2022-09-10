@@ -4,7 +4,7 @@
   position: fixed;
   top: 0;
   background-color: white;
-  color: $mainColor;
+  color: $colorMain;
   width: 100%;
   height: 70px;
   z-index: 3;
@@ -24,7 +24,7 @@
         a {
           display: flex;
           align-items: center;
-          color: $mainColor;
+          color: $colorMain;
           text-decoration: none;
 
           &:hover {
@@ -63,7 +63,7 @@
         span {
           width: 100%;
           height: 3px;
-          background-color: $mainColor;
+          background-color: $colorMain;
           transform-origin: left;
           transition: all 1s ease;
         }
@@ -92,7 +92,7 @@
   }
 
   &.active {
-    background-color: $mainColor;
+    background-color: $colorMain;
     color: white;
 
     .left {

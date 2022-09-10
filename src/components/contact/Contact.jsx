@@ -33,20 +33,22 @@ export default function Contact() {
 
   return (
     <div id="contact" className="contact">
-      <div className="left">
+      {/* <div className="left">
         <img src="assets/shake.svg" alt="" />
-      </div>
-      <div className="right">
+      </div> */}
+      {/* <div className="right"> */}
+      <form ref={formRef} onSubmit={handleSubmit} className="contact-form">
         <h2>Contact Me</h2>
-        <form ref={formRef} onSubmit={handleSubmit}>
-          <input name="user_name" type="text" placeholder="Name" />
-          <input name="user_subject" type="text" placeholder="Subject" />
-          <input name="user_email" type="text" placeholder="Email" />
-          <textarea name="message" placeholder="Message"></textarea>
-          <button type="submit">Send</button>
-          {submitted && <span>Thanks, I'll replay ASAP</span>}
-        </form>
-      </div>
+        <input name="user_name" type="text" placeholder="Name" />
+        <input name="user_subject" type="text" placeholder="Subject" />
+        <input name="user_email" type="text" placeholder="Email" />
+        <textarea name="message" placeholder="Message"></textarea>
+        <button type="submit" className="contact-button">
+          Send
+        </button>
+        {submitted && <span>Thanks, I'll replay ASAP</span>}
+      </form>
+      {/* </div> */}
     </div>
   );
 }

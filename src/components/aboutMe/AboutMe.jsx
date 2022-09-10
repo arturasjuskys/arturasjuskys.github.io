@@ -19,28 +19,13 @@ export default function About() {
       </p>
       <ul>
         <li>
-          <img src="assets/css-3-logo-svgrepo-com.svg" alt="" />
-        </li>
-        <li>
-          <img src="assets/html-5-svgrepo-com.svg" alt="" />
-        </li>
-        <li>
           <img src="assets/js-official-svgrepo-com.svg" alt="" />
-        </li>
-        <li>
-          <img src="assets/json-svgrepo-com.svg" alt="" />
         </li>
         <li>
           <img src="assets/node-js-svgrepo-com.svg" alt="" />
         </li>
         <li>
           <img src="assets/react-svgrepo-com.svg" alt="" />
-        </li>
-        <li>
-          <img src="assets/sass-svgrepo-com.svg" alt="" />
-        </li>
-        <li>
-          <img src="assets/pgsql-svgrepo-com.svg" alt="" />
         </li>
         <li>
           <img src="assets/express-svgrepo-com.svg" alt="" />
@@ -50,6 +35,24 @@ export default function About() {
         </li>
         <li>
           <img src="assets/postman-svgrepo-com.svg" alt="" />
+        </li>
+        <li>
+          <img src="assets/mongodb-svgrepo-com.svg" alt="" />
+        </li>
+        <li>
+          <img src="assets/pgsql-svgrepo-com.svg" alt="" />
+        </li>
+        <li>
+          <img src="assets/css-3-logo-svgrepo-com.svg" alt="" />
+        </li>
+        <li>
+          <img src="assets/html-5-svgrepo-com.svg" alt="" />
+        </li>
+        <li>
+          <img src="assets/json-svgrepo-com.svg" alt="" />
+        </li>
+        <li>
+          <img src="assets/sass-svgrepo-com.svg" alt="" />
         </li>
       </ul>
     </div>
