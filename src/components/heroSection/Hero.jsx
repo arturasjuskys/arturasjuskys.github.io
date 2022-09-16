@@ -18,8 +18,8 @@ export default function Hero() {
       </div>
       <div className="hero-info">
         <PText>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nisi,
-          fugit suscipit natus vitae dolorem numquam adipisci omnis minima quos?
+          I aspire to become Full-Stack developerand be a part of a team that
+          develops cutting edge web solutions for everyone.
         </PText>
         <Button btnLink="/projects" btnText="See my works" outline={false} />
       </div>
