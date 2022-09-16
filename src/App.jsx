@@ -1,26 +1,21 @@
-import "./app.scss";
-import Topbar from "./components/topbar/Topbar";
-import Menu from "./components/menu/Menu";
-import Intro from "./components/intro/Intro";
-import Slider from "./components/slider/Slider";
-import Contact from "./components/contact/Contact";
-import { useState } from "react";
-import AboutMe from "./components/aboutMe/AboutMe";
+import NavMenu from "./components/navMenu/NavMenu";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/home/Home";
+import About from "./pages/about/About";
+import Projects from "./pages/projects/Projects";
+import Contact from "./pages/contact/Contact";
 
 function App() {
-  const [menuOpen, setMenuOpen] = useState(false);
-
   return (
-    <div className="app">
-      <Topbar setMenuOpen={setMenuOpen} menuOpen={menuOpen} />
-      <Menu setMenuOpen={setMenuOpen} menuOpen={menuOpen} />
-      <div className="sections">
-        <Intro />
-        <AboutMe />
-        <Slider />
-        <Contact />
-      </div>
-    </div>
+    <Router>
+      <NavMenu />
+      <Routes>
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
   );
 }
 

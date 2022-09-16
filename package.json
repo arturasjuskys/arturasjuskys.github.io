@@ -7,10 +7,12 @@
     "@emailjs/browser": "^3.7.0",
     "@material-ui/core": "^4.12.4",
     "@material-ui/icons": "^4.11.3",
-    "node-sass": "^7.0.1",
+    "node-sass": "^7.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-external-link": "^2.0.0",
+    "react-icons": "^4.4.0",
+    "react-router-dom": "^6.4.0",
     "react-scripts": "^5.0.1",
     "typewriter-effect": "^2.19.0"
   },

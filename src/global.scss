@@ -1,10 +1,47 @@
-$colorMain: #15023a;
-$colorSec: crimson;
+// color variables
+$backgroundMain: #262626;
+$colorMain: #bcb4b4;
+$colorSec: #363636;
 
+$colorHover: #1e1e1e;
+
+// media query
 $width: 768px;
-
 @mixin mobile {
   @media (max-width: #{$width}) {
     @content;
   }
+}
+
+// default styles
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: $backgroundMain;
+  color: $colorMain;
+  font-size: 10px;
+  font-family: "Roboto";
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img,
+svg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+button {
+  outline: none;
 }
