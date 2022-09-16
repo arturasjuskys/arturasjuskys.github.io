@@ -8,7 +8,7 @@ import ScrollDownArrow from "../../assets/images/scroll-down-arrow.svg";
 
 export default function Hero() {
   return (
-    <article className="hero-container">
+    <article className="hero-section">
       <h1 className="hero-heading">
         <span>Hello, This is</span>
         <span className="hero-name">Art&#363;ras Ju&#353;kys</span>
@@ -21,7 +21,7 @@ export default function Hero() {
           I aspire to become Full-Stack developerand be a part of a team that
           develops cutting edge web solutions for everyone.
         </PText>
-        <Button btnLink="/projects" btnText="See my works" outline={false} />
+        <Button btnLink="/projects" btnText="See my projects" outline={false} />
       </div>
       <div className="hero-social">
         <div className="hero-social-indicator">
