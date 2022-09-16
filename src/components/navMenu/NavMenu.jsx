@@ -24,7 +24,7 @@ export default function NavMenu() {
         //   showNav = false
         // className="nav-items"
         //   showNav=true
-        className={showNav ? "nav-items hide-items" : "nav-items"}
+        className={!showNav ? "nav-items hide-items" : "nav-items"}
       >
         <div
           className="close-menu-icon"

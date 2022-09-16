@@ -1,0 +1,12 @@
+@import "../../global.scss";
+
+.p-text-component {
+  max-width: 500px;
+  margin: 0 auto;
+  font-size: 1.8rem;
+  line-height: 1.3em;
+
+  @include mobile {
+    font-size: 1.4rem;
+  }
+}

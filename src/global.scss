@@ -27,6 +27,12 @@ html {
   font-family: "Roboto";
 }
 
+article {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
 ul,
 li {
   list-style: none;
@@ -42,6 +48,7 @@ svg {
   height: 100%;
   object-fit: cover;
 }
+
 button {
   outline: none;
 }

@@ -1,0 +1,21 @@
+@import ".././/../global.scss";
+
+.button {
+  display: inline-block;
+  margin-top: 2rem;
+  font-size: 2.2rem;
+  background-color: $colorMain;
+  padding: 0.7em 2em;
+  border-radius: 8px;
+  border: 2px solid $colorMain;
+  color: $backgroundMain;
+
+  &.outline {
+    background-color: $backgroundMain;
+    color: $colorMain;
+  }
+
+  @include mobile {
+    font-size: 1.8rem;
+  }
+}
