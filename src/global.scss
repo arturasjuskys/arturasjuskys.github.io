@@ -31,6 +31,10 @@ html {
   padding: 30rem;
   font-size: 5rem;
   text-align: center;
+
+  @include mobile {
+    padding: 20rem 0;
+  }
 }
 
 article {
