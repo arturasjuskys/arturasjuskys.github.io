@@ -99,9 +99,9 @@
   }
 
   @include mobile {
-    .hero-container {
-      min-height: 750px;
-    }
+    justify-content: start;
+    padding-top: 10rem;
+    min-height: 750px;
 
     .hero-heading {
       font-size: 1.4rem;
