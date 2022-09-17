@@ -1,0 +1,24 @@
+@import "../../global.scss";
+
+.contact-section {
+  margin: 10rem auto;
+  padding: 3rem 10rem;
+  background-color: $colorDark;
+  border-radius: 12px;
+  text-align: center;
+
+  h2 {
+    text-transform: lowercase;
+  }
+  h2:first-letter {
+    text-transform: uppercase;
+  }
+
+  @include mobile {
+    padding: 3rem 0;
+
+    h2 {
+      font-size: 2.8rem;
+    }
+  }
+}
