@@ -39,6 +39,7 @@ li {
 
 a {
   text-decoration: none;
+  color: $colorMain;
 }
 
 img,
@@ -50,4 +51,8 @@ svg {
 
 button {
   outline: none;
+}
+
+footer {
+  width: 100%;
 }
