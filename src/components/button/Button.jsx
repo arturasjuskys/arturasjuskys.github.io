@@ -7,7 +7,6 @@ export default function Button({
   btnText = "test",
   outline = false,
 }) {
-  console.log(outline);
   return (
     <Link className={!outline ? "button" : "button outline"} to={btnLink}>
       {btnText}

@@ -1,0 +1,54 @@
+@import "../../global.scss";
+
+.project-section {
+  margin: 10rem auto;
+
+  .projects-wrapper {
+    display: flex;
+    gap: 3rem;
+    margin-top: 5rem;
+
+    .swiper {
+      max-width: 100%;
+      // position: relative;
+
+      .swiper-slide {
+        margin-top: 8rem;
+      }
+
+      .swiper-button-prev,
+      .swiper-button-next {
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        background-color: $colorDark;
+        z-index: 10;
+        right: 60px;
+        left: auto;
+        top: 0;
+        transform: translateY(50%);
+        color: $colorMain;
+        border-radius: 8px;
+      }
+
+      .swiper-button-next {
+        right: 0;
+      }
+
+      .swiper-button-prev::after,
+      .swiper-button-next::after {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  @include mobile {
+    .projects-wrapper {
+      flex-direction: column;
+      max-width: 400px;
+      margin: 0 auto;
+      margin-top: 7rem;
+      gap: 5rem;
+    }
+  }
+}
