@@ -1,0 +1,104 @@
+@import "../../global.scss";
+
+nav {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 0;
+  background: $backgroundMain;
+
+  .mobile-menu-icon {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    width: 4rem;
+    cursor: pointer;
+    display: none;
+    outline: none;
+
+    // removes events from svg element and its paths
+    * {
+      pointer-events: none;
+    }
+  }
+
+  ul {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+
+    .close-menu-icon {
+      display: none;
+    }
+
+    li {
+      display: inline-block;
+      border-radius: 8px;
+      transition: 0.3s ease background-color;
+
+      &:hover {
+        background-color: $colorDark;
+      }
+    }
+
+    a {
+      display: inline-block;
+      padding: 1rem 2rem;
+      font-size: 2rem;
+      color: $colorMain;
+      outline: none;
+    }
+    .active {
+      color: white;
+    }
+  }
+
+  @include mobile {
+    padding: 0;
+    .hide-items {
+      transform: translateY(calc(-100% - var(--top)));
+      // transform: translateY(-100%);
+    }
+
+    .mobile-menu-icon {
+      display: block;
+    }
+
+    ul .close-menu-icon {
+      display: block;
+    }
+
+    .nav-items {
+      // this variable is required for menu animation
+      --top: 1rem;
+      transition: 0.3s ease transform;
+      background-color: black;
+      padding: 2rem;
+      width: 90%;
+      max-width: 300px;
+      border-radius: 12px;
+      position: absolute;
+      right: 1rem;
+      top: var(--top);
+
+      .close-menu-icon {
+        width: 3rem;
+        margin: 0 0 0 auto;
+        cursor: pointer;
+
+        // removes events from svg element and its paths
+        * {
+          pointer-events: none;
+        }
+      }
+
+      li {
+        display: block;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

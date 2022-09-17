@@ -1,0 +1,30 @@
+@import "../../global.scss";
+
+.about-section {
+  padding: 10rem 0;
+
+  .p-text-component {
+    margin-bottom: 1rem;
+    max-width: 900px;
+    width: 80%;
+  }
+
+  .about-section-buttons {
+    width: 80%;
+    margin: 0 auto;
+
+    a {
+      margin-right: 1rem;
+    }
+  }
+
+  @include mobile {
+    padding: 0;
+
+    .about-section-buttons {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+}

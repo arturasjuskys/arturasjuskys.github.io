@@ -1,0 +1,67 @@
+@import "../../global.scss";
+
+footer {
+  background-color: $colorDark;
+
+  .footer-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10rem 5rem 1rem 5rem;
+    background-color: $colorDark;
+    display: flex;
+    gap: 3rem;
+
+    .left {
+      flex: 2;
+
+      .p-text-component {
+        margin-left: 0;
+      }
+
+      h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+      }
+    }
+
+    .right {
+      flex: 3;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+
+  .copyright {
+    padding-bottom: 1rem;
+    background-color: $backgroundMain;
+
+    .p-text-component {
+      margin-left: 5rem;
+      padding-top: 1rem;
+    }
+  }
+
+  @include mobile {
+    .footer-wrapper {
+      flex-direction: column;
+      padding: 2rem;
+
+      .right {
+        flex-direction: column;
+
+        .footer-section-column {
+          margin-top: 5rem;
+        }
+      }
+    }
+
+    .copyright {
+      padding: 0 1rem 1rem 0;
+
+      .p-text-component {
+        margin-left: 2rem;
+      }
+    }
+  }
+}
