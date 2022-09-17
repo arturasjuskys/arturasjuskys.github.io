@@ -1,13 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.1a959786.css",
-    "main.js": "/static/js/main.8ad938a2.js",
+    "main.css": "/static/css/main.6ff1f910.css",
+    "main.js": "/static/js/main.e00509e3.js",
+    "static/media/20220421_184712.jpg": "/static/media/20220421_184712.52351bd97c686e43832c.jpg",
+    "static/media/Sky.jpg": "/static/media/Sky.8ec937312fd0e3ba0c20.jpg",
+    "static/media/Shop.jpg": "/static/media/Shop.0613d4f824c96578383e.jpg",
+    "static/media/Natours.jpg": "/static/media/Natours.495345793ec9f0aff04c.jpg",
+    "static/media/Reddit.jpg": "/static/media/Reddit.aea6e0cf7767c4275759.jpg",
     "index.html": "/index.html",
-    "main.1a959786.css.map": "/static/css/main.1a959786.css.map",
-    "main.8ad938a2.js.map": "/static/js/main.8ad938a2.js.map"
+    "static/media/scroll-down-arrow.svg": "/static/media/scroll-down-arrow.245c81cae5e584090d0f12e5ab494180.svg",
+    "static/media/social-media-arrow.svg": "/static/media/social-media-arrow.d22f72e1affe242b357493ac2ce2f0e4.svg",
+    "main.6ff1f910.css.map": "/static/css/main.6ff1f910.css.map",
+    "main.e00509e3.js.map": "/static/js/main.e00509e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a959786.css",
-    "static/js/main.8ad938a2.js"
+    "static/css/main.6ff1f910.css",
+    "static/js/main.e00509e3.js"
   ]
 }
