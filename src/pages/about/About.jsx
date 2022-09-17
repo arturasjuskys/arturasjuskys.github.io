@@ -2,5 +2,5 @@ import React from "react";
 import "./about.scss";
 
 export default function About() {
-  return <div>About</div>;
+  return <main className="temp">About</main>;
 }

@@ -100,7 +100,7 @@
 
   @include mobile {
     justify-content: start;
-    padding-top: 10rem;
+    padding-top: 8rem;
     min-height: 750px;
 
     .hero-heading {
@@ -121,7 +121,7 @@
     }
 
     .hero-social {
-      bottom: 5%;
+      bottom: 40px;
       width: 20px;
 
       img {
@@ -146,6 +146,7 @@
     .hero-scroll-down {
       width: 20px;
       gap: 1rem;
+      bottom: 45px;
 
       p {
         font-size: 1.3rem;

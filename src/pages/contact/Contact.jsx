@@ -2,5 +2,5 @@ import React from "react";
 import "./contact.scss";
 
 export default function Contact() {
-  return <div>Contact</div>;
+  return <main className="temp">Contact</main>;
 }

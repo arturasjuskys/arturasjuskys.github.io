@@ -2,5 +2,5 @@ import React from "react";
 import "./projects.scss";
 
 export default function Projects() {
-  return <div>Projects</div>;
+  return <main className="temp">Projects</main>;
 }
