@@ -1,1 +1,83 @@
 @import "../../global.scss";
+
+.about-page {
+  padding-top: 20rem;
+
+  h2 {
+    font-size: 3.6rem;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+  }
+
+  .about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+    .left {
+      flex: 3;
+
+      .subheading {
+        font-size: 2.2rem;
+        margin-bottom: 2rem;
+
+        span {
+          background-color: $colorDark;
+          padding: 0.5rem;
+          border-radius: 8px;
+        }
+      }
+
+      .info {
+        margin-bottom: 4rem;
+      }
+    }
+
+    .right {
+      flex: 2;
+
+      img {
+        border: 2px solid $colorMain;
+        height: 500px;
+      }
+    }
+  }
+
+  .education {
+    margin-top: 15rem;
+    margin-bottom: 10rem;
+  }
+
+  @include mobile {
+    padding-top: 10rem;
+
+    h2 {
+      font-size: 2.8rem;
+    }
+
+    .about {
+      flex-direction: column;
+      gap: 5rem;
+
+      .left {
+        .subheading {
+          font-size: 1.8rem;
+        }
+
+        .info {
+          .button {
+            width: 100%;
+            text-align: center;
+          }
+        }
+      }
+    }
+
+    .education {
+      h2 {
+        font-size: 3rem;
+      }
+    }
+  }
+}
