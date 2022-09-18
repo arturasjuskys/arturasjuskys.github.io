@@ -24,6 +24,8 @@ html {
   color: $colorMain;
   font-size: 10px;
   font-family: "Roboto";
+  // smooth scroll effect
+  scroll-behavior: smooth;
 }
 
 .temp {

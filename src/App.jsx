@@ -5,10 +5,13 @@ import About from "./pages/about/About";
 import Projects from "./pages/projects/Projects";
 import Contact from "./pages/contact/Contact";
 import Footer from "./components/footer/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <HashRouter>
+      {/* This component will scroll to top of the page on every Link transition */}
+      <ScrollToTop />
       <NavMenu />
       <Routes>
         <Route path="/about" element={<About />} />

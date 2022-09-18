@@ -16,10 +16,12 @@ export default function About() {
         <PText>
           I believe self development to be top priority in everyone's life,
           including my own professional life. I aspire to become a part of a
-          team that develops cutting edge web solutions for everyone. Developing
-          technical and problem solving skills have become a big part of my
-          life. Personal projects that I'm working on reflect knowledge in:
-          Node.js, React, Redux, Express, PostgreSQL, MongoDB, HTML, CSS.
+          team that develops cutting edge web solutions to everyone.
+        </PText>
+        <PText>
+          Developing technical and problem solving skills have become a big part
+          of my life. Personal projects that I'm working on reflect knowledge
+          in: Node.js, React, Redux, Express, PostgreSQL, MongoDB, HTML, CSS.
         </PText>
         <PText>
           Through my personal learning experience and projects I gained

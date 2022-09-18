@@ -13,7 +13,7 @@ SwiperCore.use([Navigation]);
 export default function ProjectSection() {
   return (
     <article className="project-section">
-      <SectionTitle heading="projects" subheading="Some of my projects" />
+      <SectionTitle heading="projects" subheading="Some of my personal" />
       <div className="projects-wrapper">
         <Swiper
           spaceBetween={30}
