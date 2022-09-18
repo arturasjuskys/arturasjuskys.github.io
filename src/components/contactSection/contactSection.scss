@@ -1,24 +1,55 @@
 @import "../../global.scss";
 
-.contact-section {
-  margin: 10rem auto;
-  padding: 3rem 10rem;
-  background-color: $colorDark;
-  border-radius: 12px;
-  text-align: center;
+.contact-page {
+  padding: 10rem 0;
 
-  h2 {
-    text-transform: lowercase;
+  .wrapper {
+    display: flex;
+    gap: 5rem;
+    margin-top: 7rem;
+    justify-content: space-between;
+    position: relative;
+
+    .left {
+      width: 100%;
+      max-width: 500px;
+    }
+
+    .right {
+      width: 100%;
+      max-width: 500px;
+    }
   }
-  h2:first-letter {
-    text-transform: uppercase;
+
+  // vertical line styling
+  .wrapper::after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 100%;
+    background-color: $colorMain;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
 
   @include mobile {
-    padding: 3rem 0;
+    .wrapper {
+      flex-direction: column;
 
-    h2 {
-      font-size: 2.8rem;
+      .left,
+      .right {
+        max-width: 100%;
+      }
+
+      .right {
+        padding: 4rem 2rem 2rem 2rem;
+        // background-color: red;
+      }
+    }
+
+    .wrapper::after {
+      display: none;
     }
   }
 }

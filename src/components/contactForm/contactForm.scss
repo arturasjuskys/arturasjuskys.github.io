@@ -1,0 +1,51 @@
+@import "../../global.scss";
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  input,
+  textarea {
+    width: 100%;
+    font-size: 2rem;
+    padding: 1.2rem;
+    color: $colorMain;
+    background-color: $colorDark;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+
+  textarea {
+    min-height: 250px;
+    resize: vertical;
+  }
+
+  button[type="submit"] {
+    background-color: $colorMain;
+    color: $backgroundMain;
+    font-size: 2rem;
+    display: inline-block;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 1rem 4rem;
+    cursor: pointer;
+    width: 150px;
+  }
+
+  .submited {
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: #3c8567;
+    font-weight: 500;
+  }
+
+  @include mobile {
+    button[type="submit"] {
+      width: 100%;
+    }
+  }
+}

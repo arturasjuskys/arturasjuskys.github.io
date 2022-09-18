@@ -4,7 +4,7 @@ import PText from "../../components/pText/PText";
 import Button from "../../components/button/Button";
 import Img from "../../assets/images/20210731_201813.jpg";
 import AboutItem from "../../components/aboutItem/AboutItem";
-import ContactSection from "../../components/contactSection/ContactSection";
+import ContactBanner from "../../components/contactBanner/ContactBanner";
 
 export default function About() {
   return (
@@ -69,7 +69,7 @@ export default function About() {
         />
         <AboutItem title="Others" items={["GitHub", "Postman"]} />
       </article>
-      <ContactSection />
+      <ContactBanner />
     </main>
   );
 }

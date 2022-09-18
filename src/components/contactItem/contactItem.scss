@@ -1,0 +1,28 @@
+@import "../../global.scss";
+
+.contact-item {
+  padding: 2rem;
+  background-color: $colorDark;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+
+  .icon {
+    color: $colorMain;
+    background-color: $colorSec;
+    padding: 1.3rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  svg {
+    width: 5.5rem;
+  }
+
+  .p-text-component {
+    margin-left: 0;
+  }
+}

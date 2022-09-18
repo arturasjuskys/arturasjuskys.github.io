@@ -2,7 +2,7 @@ import React from "react";
 import HeroSection from "../../components/heroSection/Hero";
 import AboutSection from "../../components/aboutSection/About";
 import ProjectSection from "../../components/projectSection/ProjectSection";
-import ContactSection from "../../components/contactSection/ContactSection";
+import ContactBanner from "../../components/contactBanner/ContactBanner";
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <ProjectSection />
-      <ContactSection />
+      <ContactBanner />
     </main>
   );
 }

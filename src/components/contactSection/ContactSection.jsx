@@ -1,16 +1,26 @@
 import React from "react";
 import "./contactSection.scss";
 import SectionTitle from "../sectionTitle/SectionTitle";
-import Button from "../button/Button";
+import ContactItem from "../contactItem/ContactItem";
+import { MdEmail } from "react-icons/md";
+import ContactForm from "../contactForm/ContactForm";
 
 export default function ContactSection() {
   return (
     <article className="contact-section">
-      <SectionTitle
-        heading="Let me help you"
-        subheading="Have a project in mind"
-      />
-      <Button btnText="Contact Now" btnLink="/contact"></Button>
+      <SectionTitle heading="Contact" subheading="Get in touch" />
+      <div className="wrapper">
+        <div className="left">
+          <ContactItem
+            icon={<MdEmail className="icon" />}
+            text="arturasjuskys@gmail.com"
+          />
+          <ContactItem text="Peterborough, Cambridgeshire, UK" />
+        </div>
+        <div className="right">
+          <ContactForm />
+        </div>
+      </div>
     </article>
   );
 }
