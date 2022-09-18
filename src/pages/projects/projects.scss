@@ -1,1 +1,50 @@
 @import "../../global.scss";
+
+.project-page {
+  padding: 10rem 0;
+
+  .top {
+    .search-bar {
+      position: relative;
+      width: 300px;
+      margin-top: 5rem;
+
+      input {
+        width: 100%;
+        font-size: 2rem;
+        padding: 0.8rem;
+        color: $backgroundMain;
+        border: none;
+        border-radius: 6px;
+        outline: none;
+      }
+
+      .icon {
+        position: absolute;
+        width: 2rem;
+        right: 1rem;
+      }
+
+      // changing SVG color
+      .icon path {
+        color: $colorDark;
+      }
+    }
+  }
+
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 5rem;
+    margin-top: 5rem;
+  }
+
+  @include mobile {
+    .top {
+      .search-bar,
+      .search-bar input {
+        width: 100%;
+      }
+    }
+  }
+}
