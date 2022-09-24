@@ -5,6 +5,7 @@ import Button from "../../components/button/Button";
 import Img from "../../assets/images/20210731_201813.jpg";
 import AboutItem from "../../components/aboutItem/AboutItem";
 import ContactBanner from "../../components/contactBanner/ContactBanner";
+import { skills } from "../../assets/data/data";
 
 export default function About() {
   return (
@@ -59,15 +60,9 @@ export default function About() {
       </article>
       <article className="skills">
         <h2>Skills</h2>
-        <AboutItem
-          title="Front-End"
-          items={["HTML", "CSS", "SASS", "JavaScript", "React"]}
-        />
-        <AboutItem
-          title="Back-End"
-          items={["NodeJS", "Express", "MongoDB", "Postgres", "Pug Templates"]}
-        />
-        <AboutItem title="Others" items={["GitHub", "Postman"]} />
+        <AboutItem title="Front-End" items={skills.frontEnd} />
+        <AboutItem title="Back-End" items={skills.backEnd} />
+        <AboutItem title="Others" items={skills.other} />
       </article>
       <ContactBanner />
     </main>

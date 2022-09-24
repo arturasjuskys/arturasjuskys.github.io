@@ -4,6 +4,10 @@ $colorMain: #bcb4b4;
 $colorSec: #363636;
 $colorDark: #1e1e1e;
 
+// styling
+$small: 5px;
+$medium: 10px;
+
 // media query
 $width: 768px;
 @mixin mobile {

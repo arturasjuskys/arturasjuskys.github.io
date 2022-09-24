@@ -26,11 +26,34 @@
 
     .project-item-title {
       font-size: 2.2rem;
+      text-decoration: underline;
     }
 
     .project-item-desc {
       font-size: 1.6rem;
       margin-top: 1rem;
+    }
+  }
+
+  .project-item-tech {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.3rem;
+
+      li {
+        padding: 0.5rem 1rem;
+        background-color: $colorDark;
+        border-radius: $small;
+        border: solid 1px $colorDark;
+
+        &:hover {
+          border: solid 1px $colorMain;
+        }
+      }
     }
   }
 

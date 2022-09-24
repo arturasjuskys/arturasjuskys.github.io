@@ -60,7 +60,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="copyright">
-        <PText>&#169; 2022 - Art&#363;ras Ju&#353;kys</PText>
+        <PText>&#169; 2022 - Developed by Art&#363;ras Ju&#353;kys</PText>
       </div>
     </footer>
   );

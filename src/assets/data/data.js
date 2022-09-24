@@ -3,6 +3,28 @@ import Reddit from "../screenShots/Reddit.jpg";
 import Natours from "../screenShots/Natours.jpg";
 import Sky from "../screenShots/Sky.jpg";
 
+export const skills = {
+  frontEnd: [
+    "HTML",
+    "CSS",
+    "SASS",
+    "JavaScript",
+    "React",
+    "React-Redux",
+    "React-Router",
+    "Stripe",
+  ],
+  backEnd: [
+    "NodeJS",
+    "Express",
+    "MongoDB",
+    "Postgres",
+    "Pug Templates",
+    "Stripe",
+  ],
+  other: ["GitHub", "Postman", "VS Code", "Netlify", "Heroku"],
+};
+
 export const projects = [
   {
     id: "p01",
@@ -10,6 +32,21 @@ export const projects = [
     desc: "This shop is built with React best practices in mind that allow users to experience app-like speed on this commerce website.",
     img: Shop,
     url: "https://ajuskys-shop.netlify.app/",
+    tech: [
+      "React",
+      "React-Redux",
+      "React-Router",
+      "Styled-Components",
+      "Material-UI Icons",
+      "Axios",
+      "Stripe",
+      "Node",
+      "Express",
+      "CORS",
+      "Dotenv",
+      "MongoDB API",
+      "Netlify",
+    ],
   },
   {
     id: "p02",
@@ -17,6 +54,15 @@ export const projects = [
     desc: "Access Reddit communities and their content on this platform, this is meant to show that data can be accessed and implemented in your own way.",
     img: Reddit,
     url: "https://ajuskys-reddit.netlify.app/",
+    tech: [
+      "React",
+      "React-Redux",
+      "React-Router",
+      "React-Markdown",
+      "SASS",
+      "Material-UI Icons",
+      "Netlify",
+    ],
   },
   {
     id: "p03",
@@ -24,6 +70,18 @@ export const projects = [
     desc: "Travel the world with the help of this platform, browse selected beautiful locations and plan your next adventure.",
     img: Natours,
     url: "https://natours-arturas.herokuapp.com/",
+    tech: [
+      "Node",
+      "express",
+      "dotenv",
+      "mongoose",
+      "nodemailer",
+      "pug",
+      "bcryptjs",
+      "cookie-parser",
+      "stripe",
+      "Heroku",
+    ],
   },
   {
     id: "p04",
@@ -31,5 +89,18 @@ export const projects = [
     desc: "Love looking at the clear starry night sky, explore it with the help of famous Messier Catalogue of fascinating deep sky objects.",
     img: Sky,
     url: "https://ajuskys-sky.netlify.app/",
+    tech: [
+      "React",
+      "React-Router",
+      "Axios",
+      "React Icons",
+      "SASS",
+      "Node",
+      "Express",
+      "dotenv",
+      "Postgres API",
+      "Neltify",
+      "Heroku",
+    ],
   },
 ];
