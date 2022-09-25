@@ -2,6 +2,7 @@ import Shop from "../screenShots/Shop.jpg";
 import Reddit from "../screenShots/Reddit.jpg";
 import Natours from "../screenShots/Natours.jpg";
 import Sky from "../screenShots/Sky.jpg";
+import Guess from "../screenShots/Guess.jpg";
 
 export const skills = {
   frontEnd: [
@@ -85,6 +86,14 @@ export const projects = [
   },
   {
     id: "p04",
+    title: "Guess my Number",
+    desc: "Simple but fun guessing game, try to beat your highscore without overthinking it to much",
+    img: Guess,
+    url: "https://ajuskys-game-guess.netlify.app/",
+    tech: ["HTML", "CSS", "JavaScript", "DOM"],
+  },
+  {
+    id: "p05",
     title: "Northern Night Sky",
     desc: "Love looking at the clear starry night sky, explore it with the help of famous Messier Catalogue of fascinating deep sky objects.",
     img: Sky,
