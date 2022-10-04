@@ -1,10 +1,12 @@
 import React from "react";
 import "./projectItem.scss";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import { AiFillGithub } from "react-icons/ai";
 import { SiNetlify, SiHeroku } from "react-icons/si";
 
 export default function ProjectItem({
+  id,
   img,
   title,
   desc,
@@ -18,10 +20,15 @@ export default function ProjectItem({
   // console.log(hosted);
 
   return (
-    <div className="project-item">
-      <Link to="/projects" className="project-item-img">
+    <div className="project-item" id={id}>
+      <HashLink
+        to={`/projects#${id}`}
+        className="project-item-img"
+        // centers element in window
+        scroll={el => el.scrollIntoView({ block: "center" })}
+      >
         <img src={img} alt="project img" />
-      </Link>
+      </HashLink>
       <div className="content">
         <div className="project-item-info">
           <a href={url} target="_blank" rel="noreferrer">
