@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.scss";
 import PText from "../../components/pText/PText";
-import Button from "../../components/button/Button";
+// import Button from "../../components/button/Button";
 import Img from "../../assets/images/20210731_201813.jpg";
 import AboutItem from "../../components/aboutItem/AboutItem";
 import ContactBanner from "../../components/contactBanner/ContactBanner";
@@ -33,7 +33,15 @@ export default function About() {
               understanding how to program solutions that interact with 3rd
               party APIs and how to design and build RESTful API on my own.
             </PText>
-            <Button btnText="Download CV" btnLink="#" />
+            {/* <Button btnText="Download CV" btnLink="#" /> */}
+            <a
+              className="button-cv"
+              rel="noreferrer"
+              target="_blank"
+              href="https://drive.google.com/file/d/1_GijclZpXcdmtU6ahBVLJ-iIjEygbTEk/view?usp=sharing"
+            >
+              View CV
+            </a>
           </div>
         </div>
         <div className="right">
