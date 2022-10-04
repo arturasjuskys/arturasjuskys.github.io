@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.2630bc40.css",
-    "main.js": "/static/js/main.ebffeb6c.js",
+    "main.css": "/static/css/main.424eb30a.css",
+    "main.js": "/static/js/main.b0c12622.js",
     "static/media/20210731_201813.jpg": "/static/media/20210731_201813.78aa25226415250a251c.jpg",
     "static/media/20220421_184712.jpg": "/static/media/20220421_184712.52351bd97c686e43832c.jpg",
     "static/media/Natours.jpg": "/static/media/Natours.495345793ec9f0aff04c.jpg",
     "static/media/Shop.jpg": "/static/media/Shop.6080b01e84bbc5698201.jpg",
     "static/media/Reddit.jpg": "/static/media/Reddit.abae9e6d4b81646894ca.jpg",
+    "static/media/Map.jpg": "/static/media/Map.47ae311ec84a5744b4a0.jpg",
+    "static/media/Bank.jpg": "/static/media/Bank.3bb5a94c910169061bda.jpg",
+    "static/media/Dashboard.jpg": "/static/media/Dashboard.9a91cb81b58ffd39f7c6.jpg",
     "static/media/Sky.jpg": "/static/media/Sky.b58b90d96fae4bdd9222.jpg",
     "static/media/Guess.jpg": "/static/media/Guess.4be1ce74b33319f2c492.jpg",
+    "static/media/Dice.jpg": "/static/media/Dice.f4b9f13cc699bdb989ca.jpg",
     "index.html": "/index.html",
     "static/media/scroll-down-arrow.svg": "/static/media/scroll-down-arrow.245c81cae5e584090d0f12e5ab494180.svg",
     "static/media/social-media-arrow.svg": "/static/media/social-media-arrow.d22f72e1affe242b357493ac2ce2f0e4.svg",
-    "main.2630bc40.css.map": "/static/css/main.2630bc40.css.map",
-    "main.ebffeb6c.js.map": "/static/js/main.ebffeb6c.js.map"
+    "main.424eb30a.css.map": "/static/css/main.424eb30a.css.map",
+    "main.b0c12622.js.map": "/static/js/main.b0c12622.js.map"
   },
   "entrypoints": [
-    "static/css/main.2630bc40.css",
-    "static/js/main.ebffeb6c.js"
+    "static/css/main.424eb30a.css",
+    "static/js/main.b0c12622.js"
   ]
 }
