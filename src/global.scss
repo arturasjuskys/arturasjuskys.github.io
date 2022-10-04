@@ -9,9 +9,15 @@ $small: 5px;
 $medium: 10px;
 
 // media query
-$width: 768px;
+$mobile: 768px;
+$tablet: 1000px;
 @mixin mobile {
-  @media (max-width: #{$width}) {
+  @media (max-width: #{$mobile}) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media (max-width: #{$tablet}) {
     @content;
   }
 }
