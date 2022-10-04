@@ -38,9 +38,9 @@ export default function About() {
               className="button-cv"
               rel="noreferrer"
               target="_blank"
-              href="https://drive.google.com/file/d/1_GijclZpXcdmtU6ahBVLJ-iIjEygbTEk/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Cmbp132lLYijZKpraz9363Z-8cIDRb13/view?usp=sharing"
             >
-              View CV
+              Download CV
             </a>
           </div>
         </div>
