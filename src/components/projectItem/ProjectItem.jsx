@@ -41,12 +41,12 @@ export default function ProjectItem({
               {item}
             </p>
           ))}
-          <h4>Functionality</h4>
+          {/* <h4>Functionality</h4>
           {functionality.map((item, i) => (
             <p className="project-item-desc hidden" key={i}>
               {item}
             </p>
-          ))}
+          ))} */}
         </div>
         <div className="project-item-tech">
           <div className="links">

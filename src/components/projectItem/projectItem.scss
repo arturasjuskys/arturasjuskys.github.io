@@ -85,7 +85,7 @@
     .content {
       display: flex;
       flex-direction: column;
-      // justify-content: space-between;
+      justify-content: space-between;
       padding-left: 1rem;
 
       .project-item-info {
@@ -105,6 +105,10 @@
           padding-top: 1rem;
           font-weight: 300;
           font-size: 2.2rem;
+        }
+
+        p {
+          margin-bottom: 0.5rem;
         }
       }
 
