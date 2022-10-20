@@ -34,7 +34,7 @@ export default function ProjectSection() {
             },
           }}
         >
-          {projects.map((project, i) => {
+          {projects.slice(0, 6).map((project, i) => {
             // console.log(project);
             return (
               <SwiperSlide key={project.id}>

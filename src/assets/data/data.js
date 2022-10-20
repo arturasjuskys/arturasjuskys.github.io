@@ -1,13 +1,13 @@
 import Shop from "../screenShots/Shop.jpg";
 import Reddit from "../screenShots/Reddit.jpg";
 import Natours from "../screenShots/Natours.jpg";
-import Sky from "../screenShots/Sky.jpg";
 import Guess from "../screenShots/Guess.jpg";
 import Dice from "../screenShots/Dice.jpg";
 import Dashboard from "../screenShots/Dashboard.jpg";
 import Bank from "../screenShots/Bank.jpg";
 import Map from "../screenShots/Map.jpg";
 import Page from "../screenShots/Page.jpg";
+import Restaurant from "../screenShots/Restaurant.jpg";
 
 export const skills = {
   frontEnd: [
@@ -55,6 +55,26 @@ export const projects = [
       "HTML, CSS, JS",
       "Responsive Design",
       "API",
+      "Netlify Hosting",
+    ],
+  },
+  {
+    id: "restaurant",
+    title: "Restaurant - AJ Cuisine",
+    desc: "Static multi-page restaurant website with functional contact and booking forms. Pages are developed using plain HTML, CSS, and JavaScript. Scroll animations are achieved using AOS (Animate On Scroll Library).",
+    design: [
+      "Whole website consists of five pages: Home, Menu, About, Contact, and Booking. Contact and Booking pages have functional forms that send form data to the Netlify dashboard. Websites text content is Lorem to fill and represent page layout.",
+    ],
+    img: Restaurant,
+    url: "https://ajuskys-restaurant.netlify.app/",
+    hosted: "netlify",
+    github: "https://github.com/arturasjuskys/ajuskys-restaurant",
+    tech: [
+      "Static Multi-page Website",
+      "HTML, CSS, JS",
+      "HTML Forms",
+      "AOS (Animate On Scroll Library)",
+      "Mobile First Design",
       "Netlify Hosting",
     ],
   },
