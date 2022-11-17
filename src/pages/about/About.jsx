@@ -2,7 +2,8 @@ import React from "react";
 import "./about.scss";
 import PText from "../../components/pText/PText";
 // import Button from "../../components/button/Button";
-import Img from "../../assets/images/20210731_201813.jpg";
+// import Img from "../../assets/images/20210731_201813.jpg";
+import HeroImg2 from "../../assets/images/20221026_165729_2.jpg";
 import AboutItem from "../../components/aboutItem/AboutItem";
 import ContactBanner from "../../components/contactBanner/ContactBanner";
 import { skills } from "../../assets/data/data";
@@ -15,7 +16,7 @@ export default function About() {
           <p className="subheading">
             Hi, I am <span>Art&#363;ras Ju&#353;kys</span>
           </p>
-          <h2>Aspiring Front-End and Back-End Developer</h2>
+          <h2>Aspiring Web Developer</h2>
           <div className="info">
             <PText>
               I believe self development to be top priority in everyone's life,
@@ -25,8 +26,8 @@ export default function About() {
             <PText>
               Developing technical and problem solving skills have become a big
               part of my life. Personal projects that I'm working on reflect
-              knowledge in: Node.js, React, Redux, Express, PostgreSQL, MongoDB,
-              HTML, CSS.
+              knowledge in: JavaScript, React, Redux, Node.js, Express,
+              PostgreSQL, MongoDB, HTML, CSS.
             </PText>
             <PText>
               Through my personal learning experience and projects I gained
@@ -38,14 +39,15 @@ export default function About() {
               className="button-cv"
               rel="noreferrer"
               target="_blank"
-              href="https://drive.google.com/file/d/1Cmbp132lLYijZKpraz9363Z-8cIDRb13/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Z5zLO_r5moZZeKcn6R8tBnHn6-y32fDJ/view?usp=sharing"
             >
-              Download CV
+              View & Download My CV
             </a>
           </div>
         </div>
         <div className="right">
-          <img src={Img} alt="Art&#363;ras Ju&#353;kys" />
+          {/* <img src={Img} alt="Art&#363;ras Ju&#353;kys" /> */}
+          <img src={HeroImg2} alt="Art&#363;ras Ju&#353;kys" />
         </div>
       </article>
       <article className="education">
@@ -62,7 +64,10 @@ export default function About() {
           title="Online"
           items={[
             "Full-Stack Engineer Career Path, Codecademy",
+            "Node.js, Express, MongoDB & More: The Complete Bootcamp, Udemy",
+            "Learn Asynchronous JavaScript, Codecademy",
             "The Complete JavaScript Course 2021: From Zero to Hero, Udemy",
+            "CompTIA A+ Certification 901. The Total Course",
           ]}
         />
       </article>

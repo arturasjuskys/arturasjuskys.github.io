@@ -11,13 +11,13 @@ import Restaurant from "../screenShots/Restaurant.jpg";
 
 export const skills = {
   frontEnd: [
-    "HTML",
-    "CSS",
-    "SASS",
     "JavaScript",
     "React",
     "React-Redux",
     "React-Routing",
+    "HTML",
+    "CSS",
+    "SASS",
     "Stripe",
   ],
   backEnd: [

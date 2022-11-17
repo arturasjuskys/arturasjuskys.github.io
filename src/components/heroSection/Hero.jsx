@@ -1,6 +1,6 @@
 import React from "react";
 import "./hero.scss";
-import HeroImg from "../../assets/images/20220421_184712.jpg";
+import HeroImg1 from "../../assets/images/20221029_154022_2.jpg";
 import PText from "../pText/PText";
 import Button from "../button/Button";
 import SocialMediaArrow from "../../assets/images/social-media-arrow.svg";
@@ -14,13 +14,13 @@ export default function Hero() {
         <span className="hero-name">Art&#363;ras Ju&#353;kys</span>
       </h1>
       <div className="hero-image">
-        <img src={HeroImg} alt="" />
+        <img src={HeroImg1} alt="" />
       </div>
       <div className="hero-info">
-        <PText>
+        {/* <PText>
           I aspire to become Full-Stack developer and be a part of a team that
           develops cutting edge web solutions to everyone.
-        </PText>
+        </PText> */}
         <Button btnLink="/projects" btnText="See my projects" outline={false} />
       </div>
       <div className="hero-social">
