@@ -5,7 +5,7 @@
 
   .p-text-component {
     margin-bottom: 1rem;
-    width: 80%;
+    padding: 0 0.5rem;
   }
 
   .about-section-buttons {
@@ -16,14 +16,41 @@
       margin-right: 1rem;
     }
   }
+}
 
-  @include mobile {
-    padding: 0;
+.education {
+  h2 {
+    font-size: 3.6rem;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
 
-    .about-section-buttons {
-      display: flex;
-      flex-direction: column;
-      text-align: center;
+.skills {
+  margin-top: 7rem;
+
+  h2 {
+    font-size: 3.6rem;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
+
+@include mobile {
+  padding: 0;
+
+  .about-section-buttons {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .education,
+  .skills {
+    h2 {
+      font-size: 2.5rem;
     }
   }
 }

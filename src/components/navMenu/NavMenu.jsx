@@ -46,10 +46,10 @@ export default function NavMenu() {
             onKeyDown={() => setShowNav(!showNav)}
             tabIndex={0}
           >
-            Home
+            About
           </NavLink>
         </li>
-        <li>
+        {/* <li>
           <NavLink
             to="/about"
             onClick={() => setShowNav(!showNav)}
@@ -60,7 +60,7 @@ export default function NavMenu() {
           >
             About
           </NavLink>
-        </li>
+        </li> */}
         <li>
           <NavLink
             to="projects"

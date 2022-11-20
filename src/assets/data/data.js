@@ -28,7 +28,15 @@ export const skills = {
     "Pug Templates",
     "Stripe",
   ],
-  other: ["GitHub", "Postman", "VS Code", "Netlify", "Heroku", "MongoDB"],
+  other: [
+    "GitHub",
+    "VS Code",
+    "Microsoft Office",
+    "Postman",
+    "Netlify",
+    "Heroku",
+    "MongoDB",
+  ],
 };
 
 export const projects = [

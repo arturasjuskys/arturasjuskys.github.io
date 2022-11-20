@@ -1,7 +1,8 @@
 import React from "react";
 import "./hero.scss";
 import HeroImg1 from "../../assets/images/20221029_154022_2.jpg";
-import PText from "../pText/PText";
+// import HeroImg1 from "../../assets/images/20221111_151350.jpg";
+// import PText from "../pText/PText";
 import Button from "../button/Button";
 import SocialMediaArrow from "../../assets/images/social-media-arrow.svg";
 import ScrollDownArrow from "../../assets/images/scroll-down-arrow.svg";
@@ -21,7 +22,15 @@ export default function Hero() {
           I aspire to become Full-Stack developer and be a part of a team that
           develops cutting edge web solutions to everyone.
         </PText> */}
-        <Button btnLink="/projects" btnText="See my projects" outline={false} />
+        {/* <Button btnLink="/projects" btnText="See my projects" outline={false} /> */}
+        <a
+          className="button-cv"
+          rel="noreferrer"
+          target="_blank"
+          href="https://drive.google.com/file/d/1Z5zLO_r5moZZeKcn6R8tBnHn6-y32fDJ/view?usp=sharing"
+        >
+          View & Download My CV
+        </a>
       </div>
       <div className="hero-social">
         <div className="hero-social-indicator">

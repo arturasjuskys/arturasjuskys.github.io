@@ -19,15 +19,15 @@ export default function Footer() {
             heading="Important Links"
             links={[
               {
-                title: "Home",
+                title: "About",
                 url: "/",
                 type: "Link",
               },
-              {
-                title: "About",
-                url: "/about",
-                type: "Link",
-              },
+              // {
+              //   title: "About",
+              //   url: "/about",
+              //   type: "Link",
+              // },
               {
                 title: "Projects",
                 url: "/projects",
